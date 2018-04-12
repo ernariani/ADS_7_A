@@ -14,7 +14,7 @@ Kebutuhan Fungsional
 -	Update harga barang rosokam secara realtime
 -	Menyediakan profile dari pengepul rosokan
 -	Menyimpan data data user yang pernah menggunakan sistem ini atau yang pernah melakukan transaksi
--	Menyediakan fitur rating, sehingga user dapat mengetahui pengepul mana yang sering dipilih
+-	Menyediakan fitur rating web, sehingga user dapat mengetahui pengepul mana yang sering dipilih
 	
 Kebutuhan Non Fungsional
 -	Transaksi penjualan rongsokan aman (pembayaran)
