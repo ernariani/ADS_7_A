@@ -57,11 +57,27 @@ Erna Fajariani		150535602669
 	4. Administrator system berfungsi untuk mengolah informasi – informasi apa saja yang akan ditampilkan pada website E-ROMBENG.
 
 2.2	Karakteristik Pengguna
-
+2.2.1	Fungsi Perangkat Lunak
+	Perangkat lunak berbasis web ini memiliki fungsi sebagai sebuah media yang bisa membantu user untuk menjual barang rongsokan yang
+	dimiliki tanpa harus mencari lokasi pengepul. User juga bisa mengetahui harga – harga barang rongsokan sebelum menjual barangnya.
+	Diharapkan dengan website E-ROMBENG ini nantinya juga bisa mengurangi polusi yang disebabkan dari barang rongsokan karena barang 
+	rongsokan akan diolah oleh pihak yang tepat.
+2.2.2	Keamanan Data
+	Keamanan jaringan untuk penyimpanan data juga harusnya ada untuk menjamin kenyaman dari pengguna maupun bagi pengepul. Maka dari 
+	itu adanya administrator khusus yang berguna untuk mengecek data yang masuk serta memonitor aktivitas yang mencurigakan sehingga
+	dapat diantisipasi secara cepat.
+	
 2.3	Batasan
+	Penggunaan system web responsif seperti yang digunakan untuk membangun E-ROMBENG tentunya memiliki kekurangan serta kelebihan dalam
+	pengaplikasiaannya. Batasan – batasan yang ada yaitu dimana disetiap aktifitas yang dilakukan pada web responsif memerlukan kuota 
+	serta waktu eksekusinya lebih lama daripada platform lain seperti pada desktop atau android. Pada proses desain juga terbatas dan 
+	menyesuaikan dengan hostingnya dikarenakan mebutuhkan space storage yang lumayan besar apabila desain yang dilakukan terlampau bagus
+	dan rumit.
 
 2.4	Lingkungan Operasi
-
+	Website ini menggunakan system web yang responsive, sehingga tidak membutuhkan spesifikasi hardware dan platform yang khusus untuk
+	mengkases website E-ROMBENG ini. Intinya selama user terhubung dengan koneksi internet dan memiliki aplikasi web browser yang support
+	dengan HTML 5 maka user dapat mengakses website E-ROMBENG dengan lancar tanpa hambatan.
 
 3.	Deskripsi Kebutuhan 
 3.1	Kebutuhan Antarmuka Eksternal 
