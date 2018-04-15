@@ -27,8 +27,20 @@ Erna Fajariani		150535602669
 1.6	Deskripsi umum Dokumen (Ikhtisar)
 
 
-2.	Deskripsi Umum Dokumen (Ikhtisar)  (Dimas Kiki)
+2.	Deskripsi Umum Dokumen (Ikhtisar) 
 2.1	Deskripsi Umum Sistem
+2.1.1	Tentang Perangkat Lunak
+	- Kebutuhan Fungsional
+	  1. Dapat search tempat pengepul rosokan terdekat
+	  2. Update harga barang rosokam secara realtime
+	  3. Menyediakan profile dari pengepul rosokan
+	  4. Menyimpan data data user yang pernah menggunakan sistem ini atau yang pernah melakukan transaksi
+	  5. Menyediakan fitur rating web, sehingga user dapat mengetahui pengepul mana yang sering dipilih
+	- Kebutuhan Non Fungsional
+	  1. Transaksi penjualan rongsokan aman (pembayaran)
+	  2. Menyediakan pilihan bahasa inggris dan indonesia
+	  3. Digunakan pada aplikasi web responsif
+2.1.2	Fungsi - Fungsi Perangkat Lunak
 
 2.2	Karakteristik Pengguna
 
