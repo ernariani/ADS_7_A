@@ -50,6 +50,11 @@ Erna Fajariani		150535602669
 	Aplikasi ini diberi nama E-ROMBENG yang nantinya akan berbasis website agar semua orang bisa mengakses tanpa harus menginstall aplikasi
 	ini. Website ini akan menunujukkan semua informasi yang ada pada pengepul, mulai dari lokasi, harga, jam buka, hingga layanan ambil 
 	barang atau tidak. Desain website E-ROMBENG ini akan dibuat semudah mungkin agar nyaman untuk digunakan bagi pengguna.
+	Penjelasan :
+	1. User bisa melihat informasi dari pengepul, melakukan transaksi jual beli barang rongsokan, serta meberikan saran dan komentar.
+	2. Server berfungsi sebagai media yang meghubungkan antara database dan website E-ROMBENG.
+	3. Database berfungsi untuk menyimpan data informasi dari pengepul dan aktivitas user secara real time.
+	4. Administrator system berfungsi untuk mengolah informasi – informasi apa saja yang akan ditampilkan pada website E-ROMBENG.
 
 2.2	Karakteristik Pengguna
 
