@@ -11,12 +11,14 @@ Dimas Kiki Setiadi	150535604625
 Erna Fajariani		150535602669
 
 Abstrak
-Perangkat Lunak sistem informasi Pengepul Barang Rongsok di daerah Malang, sistem informasi ini dikembangkan untuk membantu pendatang 
-didaerah malang yang ingin menjual barang-barang rongsokan yang tidak terpakai. Sistem informasi ini diberi nama E-Rombeng, Perangkat 
-lunak ini berbasis WEB dan terdapat beberapa fitur yang ada pada E-Rombeng yaitu mengetahui lokasi penjual, mengetahui update harga 
-barang pada setiap pengepul, dan 
+Perangkat Lunak sistem informasi Pengepul Barang Rongsok di daerah Malang, sistem informasi ini dikembangkan untuk membantu 
+penduduk atau pendatang baru didaerah malang yang ingin menjual barang-barang rongsokan yang tidak terpakai dan dapat memperoleh
+data pengepul yang terdekat serta mengetahui informasi updatean harga. Selain itu bagi para pengepul rosokan juga mempermudah untuk 
+mendapatkan barang rongsokan tanpa berkeliling ke rumah-rumah lagi.Sistem informasi ini diberi nama E-Rombeng, Perangkat lunak ini berbasis WEB dan 
+terdapat beberapa fitur yang ada pada E-Rombeng yaitu mengetahui lokasi pengepul, type barang rongsokan,update harga barang pada setiap pengepul 
+dan masih banyak lagi fitur yang disajikan.
 
-1.	Pendahuluan (Agung Gumilang)
+1.	Pendahuluan
 1.1	Tujuan Penulisan Dokumen
 	Dokumen ini ditulis untuk menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh pengguna yang akan ingin 
 	menjual barang-barang rongsokan di daerah malang. Penjabaran spesifikasi perangkat lunak meliputi diskripsi umum dari prangkat lunak
@@ -50,6 +52,7 @@ barang pada setiap pengepul, dan
 	  1. Transaksi penjualan rongsokan aman (pembayaran)
 	  2. Menyediakan pilihan bahasa inggris dan indonesia
 	  3. Digunakan pada aplikasi web responsif
+	  
 2.1.2	Fungsi - Fungsi Perangkat Lunak
 	Kita tahu bahwa semakin lama barang bekas atau barang rongsokan makin hari makin banyak. Terkadang kita sendiri kebingungan mau 
 	diapakan barang rongsokan tersebut, mau dibuang, didaur ulang atau dijual kembali. Jika dibuang maka akan menimbulkan polusi baik
@@ -72,6 +75,7 @@ barang pada setiap pengepul, dan
 	dimiliki tanpa harus mencari lokasi pengepul. User juga bisa mengetahui harga – harga barang rongsokan sebelum menjual barangnya.
 	Diharapkan dengan website E-ROMBENG ini nantinya juga bisa mengurangi polusi yang disebabkan dari barang rongsokan karena barang 
 	rongsokan akan diolah oleh pihak yang tepat.
+	
 2.2.2	Keamanan Data
 	Keamanan jaringan untuk penyimpanan data juga harusnya ada untuk menjamin kenyaman dari pengguna maupun bagi pengepul. Maka dari 
 	itu adanya administrator khusus yang berguna untuk mengecek data yang masuk serta memonitor aktivitas yang mencurigakan sehingga
@@ -103,7 +107,7 @@ User interface yang digunakan untuk mengoperasikan Perangkat Lunak E-Rombeng ant
 -	Tampilan form transaksi
 
 Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut :
--	Android 
+-	Android / Smartphone 
 -	Laptop
 -	Keyboard
 -	Mouse
