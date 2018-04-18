@@ -70,6 +70,26 @@ dan masih banyak lagi fitur yang disajikan.
 	4. Administrator system berfungsi untuk mengolah informasi – informasi apa saja yang akan ditampilkan pada website E-ROMBENG.
 
 2.2	Karakteristik Pengguna
+	Tabel 3. Karakteristik Pengguna
+	1. Admin : Tugas -> - Mengupdate fitur sistem informasi
+						- Insert, input, delete data
+						- Melakukan verifikasi pendaftaran
+				Hak akses aplikasi -> Sign in sebagai admin, control panel server
+	
+	2. Pengepul : Tugas -> - Mendaftar ke sistem sebagai pengepul
+						   - Menginsert , delete, update data harga tiap tipe barang rongsok
+						   - Melakukan konfirmasi dengan customer ketika melakukan transaksi penjualan rongsok
+						   - Mengetahui lokasi dari customer
+				  Hak akses ke aplikasi ->  Sign in sebagai pengepul
+	
+	3. User / Customer : Tugas -> Melihat tampilan web
+				  Hak akses ke aplikasi -> - Sign in sebagai user
+							   - Mendaftar ke sistem sebagai customer
+							   - Mengetahui lokasi pengepul, profile
+							   - Mengetahui informasi jenis barang rongsokan
+							   - Mengetahui jam kerja 
+							   - Mengisi form penjualan barang rongsok
+
 2.2.1	Fungsi Perangkat Lunak
 	Perangkat lunak berbasis web ini memiliki fungsi sebagai sebuah media yang bisa membantu user untuk menjual barang rongsokan yang
 	dimiliki tanpa harus mencari lokasi pengepul. User juga bisa mengetahui harga – harga barang rongsokan sebelum menjual barangnya.
