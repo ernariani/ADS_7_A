@@ -27,7 +27,9 @@ dan masih banyak lagi fitur yang disajikan.
 	pengembang dan pembangun perangkat lunak E-Rombeng ini. 
  	
 1.2	Lingkup Masalah
-	
+	E-Rombeng merupakan sebuah aplikasi e-commerce yang berbasis web yang digunakan untuk menjual barang-barang rombeng didaerah 
+	malang. Pengguna perangkat lunak ini tidak diwajibkan untuk melakukan login tetapi untuk pengepul barang rombeng yang ada di aplikasi
+	ini diharuskan untuk login, apabila pengguna masuk ke aplikasi ini maka akan di arahkan menuju
 
 1.3	Definisi, Istilah dan Singkatan
 
@@ -70,26 +72,6 @@ dan masih banyak lagi fitur yang disajikan.
 	4. Administrator system berfungsi untuk mengolah informasi – informasi apa saja yang akan ditampilkan pada website E-ROMBENG.
 
 2.2	Karakteristik Pengguna
-	Tabel 3. Karakteristik Pengguna
-	1. Admin : Tugas -> - Mengupdate fitur sistem informasi
-						- Insert, input, delete data
-						- Melakukan verifikasi pendaftaran
-				Hak akses aplikasi -> Sign in sebagai admin, control panel server
-	
-	2. Pengepul : Tugas -> - Mendaftar ke sistem sebagai pengepul
-						   - Menginsert , delete, update data harga tiap tipe barang rongsok
-						   - Melakukan konfirmasi dengan customer ketika melakukan transaksi penjualan rongsok
-						   - Mengetahui lokasi dari customer
-				  Hak akses ke aplikasi ->  Sign in sebagai pengepul
-	
-	3. User / Customer : Tugas -> Melihat tampilan web
-				  Hak akses ke aplikasi -> - Sign in sebagai user
-							   - Mendaftar ke sistem sebagai customer
-							   - Mengetahui lokasi pengepul, profile
-							   - Mengetahui informasi jenis barang rongsokan
-							   - Mengetahui jam kerja 
-							   - Mengisi form penjualan barang rongsok
-
 2.2.1	Fungsi Perangkat Lunak
 	Perangkat lunak berbasis web ini memiliki fungsi sebagai sebuah media yang bisa membantu user untuk menjual barang rongsokan yang
 	dimiliki tanpa harus mencari lokasi pengepul. User juga bisa mengetahui harga – harga barang rongsokan sebelum menjual barangnya.
@@ -149,24 +131,7 @@ Antarmuka komunikasi yang digunakan untuk  mengoperasikan perangkat lunak :
 -	Kabel LAN 
 
 3.2	Kebutuhan Fungsional
-Tabel 4. Kebutuhan Fungsional
-( ID	/	Kebutuhan	/	Penjelasan ) 
-SRS-F-OUT-001	= 	Perangkat lunak dapat menampilkan form sign in.			=	Pengguna yang telah terdaftar dapat melakukan sign in sehingga perangkat lunak perlu menampilkan form sign in
-
-SRS-F-OUT-002	= 	Perangkat lunak dapat menampilkan form registrasi.		=	Pengguna yang belum terdaftar dapat melakukan registrasi terlebih dahulu sehingga perangkat lunak perlu menampilkan form registrasi sesuai pilihan registrasi sebagai pengepul atau user.
-
-SRS-F-OUT-003	=	Perangkat lunak dapat menampilkan form entri pendaftaran	=	Form entri pendaftaran ditampilkan saat pengguna melakukan pendaftaran sebagai pengepul atau sebagai user
-
-SRS-F-IN-004	=	Perangkat lunak dapat menerima masukan dari pengepul, berupa data barang rongsok atau updatean harga barang rongsok. =	Data yang dimasukkan oleh pengepul dapat diterima oleh perangkat lunak
-
-SRS-F-PR-005	=	Perangkat lunak dapat menyimpan data user(customer)		=	Setelah pengguna yang melakukan pendaftaran sebagai user memasukkan data yang dibutuhkan, perangkat lunak menyimpan data tersebut.
-
-SRS-F-PR-006	=	Perangkat lunak dapat menyimpan data user(customer)		=	Setelah pengguna yang melakukan pendaftaran sebagai user memasukkan data yang dibutuhkan, perangkat lunak menyimpan data tersebut.
-
-SRS-F-OUT-007	= 	Perangkat lunak dapat menampilkan halaman home web		=	Pengguna atau pengepul dapat melihat tampilan dari masing masing sesuai loginnya sebagai user atau pengepul.
-
-
-3.2.1 	Diagram Konteks (Terlampir .jpg)
+3.2.1 	Diagram Konteks 
 3.2.2 		DFD Level 1 
 3.2.2.1 	DFD Level 2 <Proses pendaftaran >
 3.2.2.2 	DFD Level 2 <Proses lihat dan update data rombeng> 
