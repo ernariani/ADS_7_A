@@ -33,6 +33,14 @@ dan masih banyak lagi fitur yang disajikan.
 	beberapa menu yaitu about, type barang, list pengepul, gallery foto, dan login member.
 
 1.3	Definisi, Istilah dan Singkatan
+	Berikut merupakan definisi, singkatan, atau istilah -istilah yang ada dalam dokumen ini :
+
+	Definisi, istilah, atau singkatan					Penjelasan
+	DFD						Data Flow Diagram, diagram yang menggambarkan aliran data
+	ERD						Entity Relationship Data, diagram yang yang menggambarkan entitas suatu objek beserta relasinya
+	Interface					Antarmuka antara user dan pengguna
+	Data Store					Tempat penyimpanan data
+	API						Application Programming Interface
 
 1.4	Aturan Penomoran
 
