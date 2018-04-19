@@ -140,6 +140,40 @@ Antarmuka komunikasi yang digunakan untuk  mengoperasikan perangkat lunak :
 -	Kabel LAN 
 
 3.2	Kebutuhan Fungsional
+Tabel 4. Kebutuhan Fungsional
+( ID	/	Kebutuhan	/	Penjelasan ) 
+SRS-F-OUT-001	= 	Perangkat lunak dapat menampilkan form sign in.		=	Pengguna yang telah terdaftar dapat melakukan sign in sehingga perangkat lunak perlu menampilkan form sign in
+
+SRS-F-OUT-002	= 	Perangkat lunak dapat menampilkan form registrasi.	=	Pengguna yang belum terdaftar dapat melakukan registrasi terlebih dahulu sehingga perangkat lunak perlu menampilkan form registrasi sesuai pilihan registrasi sebagai pengepul atau user.
+
+SRS-F-OUT-003	=	Perangkat lunak dapat menampilkan form entri pendaftaran	=	Form entri pendaftaran ditampilkan saat pengguna melakukan pendaftaran sebagai pengepul atau sebagai user
+
+SRS-F-IN-004	=	Perangkat lunak dapat menerima masukan dari pengepul, berupa data barang rongsok atau updatean harga barang rongsok. =	Data yang dimasukkan oleh pengepul dapat diterima oleh perangkat lunak
+
+SRS-F-PR-005	=	Perangkat lunak dapat menyimpan data user(customer)	=	Setelah pengguna yang melakukan pendaftaran sebagai user memasukkan data yang dibutuhkan, perangkat lunak menyimpan data tersebut.
+
+SRS-F-PR-006	=	Perangkat lunak dapat menyimpan data pengepul	=	Setelah pengepul yang melakukan pendaftaran sebagai pengepul memasukkan data yang dibutuhkan, perangkat lunak menyimpan data tersebut.
+
+SRS-F-IN-007	=	Perangkat lunak dapat menampilkan form khusus pengepul untuk melakukan update harga ,type dari barang rongsok  dan informasi lain =  Pengepul melakukan input informasi yang diperlukan dan dapat diproses oleh perangkat lunak.
+
+SRS-F-OUT-008	= 	Perangkat lunak dapat menampilkan halaman home	=	Pengguna atau pengepul dapat melihat tampilan dari masing masing sesuai loginnya sebagai user atau pengepul.
+
+SRS-F-OUT-009	= 	Perangkat lunak dapat menampilkan list pengepul dan lokasi dari pengepul = Pengguna dapat melihat beberapa pengepul yang ada disekitar user yang terdekat.
+
+SRS-F-OUT-010	=	Perangkat lunak dapat menampilkan katalog harga dari type barang rongsok = Pengguna dapat melihat updatean harga pada pengepul yang telah dipilihnya.
+
+SRS-F-IN-011	=	Perangkat Lunak dapat menerima inputan jika user ingin melakukan transaksi pada pengepul yang dipilihnya	=	User atau pengguna memberikan inputan transaksi untuk melakukan transaksi jual beli rongsok.
+
+SRS-F-OUT-012	=	Perangkat Lunak menampilkan form transaksi penjualan barang rongsok	=	User dapat akan melakukan transaksi dapat melakukan pengisian form transaksi, input data dan berat barang rongsok, serta kesepakatan pengambilan barangnya.
+
+SRS-F-IN-013	=	Perangkat lunak dapat menerima inputan data yang dijual oleh customer	=	User yang melakukan transaksi penjualan rosok akan memasukkan data type barang yang ingin dijual beserta jumlahnya, sehingga data tersebut dapat diterima oleh perangkat lunak
+
+SRS-F-OUT-014	=	Perangkat lunak dapat mengirimkan notifikasi transaksi berhasil kepada user 	=	Setelah berhasil dikirimkan, maka akan dilakukan pemrosesan oleh perangkat lunak untuk proses transaksi selanjutnya.
+
+SRS-F-OUT-015	= 	Perangkat lunak akan menampilkan data user yang melakukan transaksi	=	Pengepul akan melakukan transaksi dan pengambilan barang sesuai informasi yang diberikan oleh perangkat lunak.
+
+
+
 3.2.1 	Diagram Konteks 
 3.2.2 		DFD Level 1 
 3.2.2.1 	DFD Level 2 <Proses pendaftaran >
@@ -151,7 +185,35 @@ Antarmuka komunikasi yang digunakan untuk  mengoperasikan perangkat lunak :
 
 3.3	Kebutuhan Data
 3.3.1 E-R diagram
+
 3.4 Kebutuhan Non Fungsional  
+Tabel 7 Kebutuhan non Fungsional
+	(ID		-		Parameter		-		Kebutuhan)
+	
+SRS-NF-OUT-016	=	Availability	=	Perangkat lunak dapat beroperasi selama 24 jam tanpa gagal.
+
+SRS-NF-OUT-017	=	Reliability	=	Kegagalan dalam proses transaksi memiliki toleransi satu kali kegagalan.
+
+SRS-NF-OUT-018	=	Ergonomy	=	Tampilan antar muka web E-Rombeng mudah dipahami, dimengerti, efisien dan efektif penggunaanya.
+
+SRS-NF-OUT-019	=	Portability	=	Perangkat lunak dapat dipakai di platform Windows atau Android.
+
+			Memory		=	N/A
+					
+SRS-NF-OUT-020	=	Response time	=	Perangkat lunak mampu menampilkan notifikasi transaksi kepada customer maksimal 45 detik.
+
+			Safety		=	N/A.
+
+SRS-NF-OUT-021	=	Security	=	Perangkat lunak aman dalam proses pembayaran transaksi, Standar yang digunakan enkripsi HTTPS.
+
+SRS-NF-OUT-022	=	Security	=	Perangkat lunak menolak input pengguna yang mendaftar sebagai user atau pengepul dengan pasword kurang dari  karakter.
+						Perangkat lunak akan menolak proses transaksi jika data diri user kurang.
+									
+SRS-NF-OUT-023	=	Other 1 : Bahasa Komunikasi	=	Disediakan 2 bahasa yaitu Bahasa Indonesia dan Inggris untuk melakukan pengoperasian E-Rombeng.
+
+SRS-NF-OUT-024	=	Other 2	: Tampilan Logo Perangkat Lunak =	Pada setiap halaman terdapat nama perangkat lunak E-Rombeng dna logonya.	
+									
+
 
 3.5 Batasan Perancangan 
 Batasan  perancangan yang dipakai dalam pengembangan perangkat lunak E-Rombeng antara lain :
@@ -160,10 +222,23 @@ Batasan  perancangan yang dipakai dalam pengembangan perangkat lunak E-Rombeng a
 -	Bahasa yang digunakan adalah html, css
 
 3.6 Kerunutan (traceability)  
+Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang 
+dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi
+traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
 
-3.6.1 Data Store vs E-R 
+3.6.1 Kebutuhan Fungsional vs Proses
+	Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat 
+lunak E-Rombeng adalah sebagai berikut.
+
+3.6.2 Data Store vs E-R 
 	
 3.7 Ringkasan Kebutuhan 
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
+fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus
+dipenuhi dalam pembuatan suatu perangkat lunak, dan nantnya dapat digunakan 
+sebagai arahan untuk proses testing, dimana sebenarnya semua harus dapat dilakukan pada 
+proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng yaitu :
+		
 
 3.7.1 Kebutuhan Fungsional 
 
