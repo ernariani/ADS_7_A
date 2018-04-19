@@ -1,0 +1,245 @@
+SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK
+E – Rombeng
+
+Untuk :
+Pengepul – Pengepul Barang Rongsok didaerah Malang
+
+Dipersiapkan oleh : 
+Kelompok 7
+Agung Gumilang Pratama	150535605420
+Dimas Kiki Setiadi	150535604625
+Erna Fajariani		150535602669
+
+Abstrak
+Perangkat Lunak sistem informasi Pengepul Barang Rongsok di daerah Malang, sistem informasi ini dikembangkan untuk membantu 
+penduduk atau pendatang baru didaerah malang yang ingin menjual barang-barang rongsokan yang tidak terpakai dan dapat memperoleh
+data pengepul yang terdekat serta mengetahui informasi updatean harga. Selain itu bagi para pengepul rosokan juga mempermudah untuk 
+mendapatkan barang rongsokan tanpa berkeliling ke rumah-rumah lagi.Sistem informasi ini diberi nama E-Rombeng, Perangkat lunak ini berbasis WEB dan 
+terdapat beberapa fitur yang ada pada E-Rombeng yaitu mengetahui lokasi pengepul, type barang rongsokan,update harga barang pada setiap pengepul 
+dan masih banyak lagi fitur yang disajikan.
+
+1.	Pendahuluan
+1.1	Tujuan Penulisan Dokumen
+	Dokumen ini ditulis untuk menjabarkan spesifikasi kebutuhan perangkat lunak yang akan digunakan oleh pengguna yang akan ingin 
+	menjual barang-barang rongsokan di daerah malang. Penjabaran spesifikasi perangkat lunak meliputi diskripsi umum dari prangkat lunak
+	sistem informasi dan diskripsi dari kebutuhan perangkat lunak. Perangkat lunak yang dibangun untuk memenuhi kebutuhan pengguna 
+	dalam menjual barang rongsok di daerah malang merupakan E-Rombeng. Dalam pembangunan perangkat lunak sistem informasi ini membutuhkan 
+	pengembang dan pembangun perangkat lunak E-Rombeng ini. 
+ 	
+1.2	Lingkup Masalah
+	E-Rombeng merupakan sebuah aplikasi e-commerce yang berbasis web yang digunakan untuk menjual barang-barang rombeng didaerah 
+	malang. Pengguna perangkat lunak ini tidak diwajibkan untuk melakukan login tetapi untuk pengepul barang rombeng yang ada di aplikasi
+	ini diharuskan untuk login, apabila pengguna masuk ke aplikasi ini maka akan diarahkan menu home, dimana pada menu home ini terdapat 
+	beberapa menu yaitu about, type barang, list pengepul, gallery foto, dan login member.
+
+1.3	Definisi, Istilah dan Singkatan
+	Berikut merupakan definisi, singkatan, atau istilah -istilah yang ada dalam dokumen ini :
+
+	Definisi, istilah, atau singkatan					Penjelasan
+	DFD						Data Flow Diagram, diagram yang menggambarkan aliran data
+	ERD						Entity Relationship Data, diagram yang yang menggambarkan entitas suatu objek beserta relasinya
+	Interface					Antarmuka antara user dan pengguna
+	Data Store					Tempat penyimpanan data
+	API						Application Programming Interface
+
+1.4	Aturan Penomoran
+
+ 
+1.5	Referensi
+
+1.6	Deskripsi umum Dokumen (Ikhtisar)
+
+
+2.	Deskripsi Umum Dokumen (Ikhtisar) 
+2.1	Deskripsi Umum Sistem
+2.1.1	Tentang Perangkat Lunakdan pembangun perangkat lunak E-Rombeng ini.
+	- Kebutuhan Fungsional
+	  1. Dapat search tempat pengepul rosokan terdekat
+	  2. Update harga barang rosokam secara realtime
+	  3. Menyediakan profile dari pengepul rosokan
+	  4. Menyimpan data data user yang pernah menggunakan sistem ini atau yang pernah melakukan transaksi
+	  5. Menyediakan fitur rating web, sehingga user dapat mengetahui pengepul mana yang sering dipilih
+	- Kebutuhan Non Fungsional
+	  1. Transaksi penjualan rongsokan aman (pembayaran)
+	  2. Menyediakan pilihan bahasa inggris dan indonesia
+	  3. Digunakan pada aplikasi web responsif
+	  
+2.1.2	Fungsi - Fungsi Perangkat Lunak
+	Kita tahu bahwa semakin lama barang bekas atau barang rongsokan makin hari makin banyak. Terkadang kita sendiri kebingungan mau 
+	diapakan barang rongsokan tersebut, mau dibuang, didaur ulang atau dijual kembali. Jika dibuang maka akan menimbulkan polusi baik
+	itu polusi tanah, udara, maupun air. Jika ingin didaur ulang tentunya harus memiliki jiwa kreatifitas yang tinggi, dan yang paling 
+	gampang yaitu untuk mengurangi barang rongsokan dengan cara dijual kembali. Tetapi untuk zaman sekarang tentunya akan semakin sulit 
+	untuk menemukan tempat pengepul barang rongsokan. Untuk mengatasi permasalah yang ada tersebut, maka diperlukan suatu system informasi 
+	untuk mencari serta menjembatani antara penjual barang rongsokan dan pengepul dalam melakukan proses jual beli barang rongsokan. 
+	Aplikasi ini diberi nama E-ROMBENG yang nantinya akan berbasis website agar semua orang bisa mengakses tanpa harus menginstall aplikasi
+	ini. Website ini akan menunujukkan semua informasi yang ada pada pengepul, mulai dari lokasi, harga, jam buka, hingga layanan ambil 
+	barang atau tidak. Desain website E-ROMBENG ini akan dibuat semudah mungkin agar nyaman untuk digunakan bagi pengguna.
+	Penjelasan :
+	1. User bisa melihat informasi dari pengepul, melakukan transaksi jual beli barang rongsokan, serta meberikan saran dan komentar.
+	2. Server berfungsi sebagai media yang meghubungkan antara database dan website E-ROMBENG.
+	3. Database berfungsi untuk menyimpan data informasi dari pengepul dan aktivitas user secara real time.
+	4. Administrator system berfungsi untuk mengolah informasi – informasi apa saja yang akan ditampilkan pada website E-ROMBENG.
+
+2.2	Karakteristik Pengguna
+2.2.1	Fungsi Perangkat Lunak
+	Perangkat lunak berbasis web ini memiliki fungsi sebagai sebuah media yang bisa membantu user untuk menjual barang rongsokan yang
+	dimiliki tanpa harus mencari lokasi pengepul. User juga bisa mengetahui harga – harga barang rongsokan sebelum menjual barangnya.
+	Diharapkan dengan website E-ROMBENG ini nantinya juga bisa mengurangi polusi yang disebabkan dari barang rongsokan karena barang 
+	rongsokan akan diolah oleh pihak yang tepat.
+	
+2.2.2	Keamanan Data
+	Keamanan jaringan untuk penyimpanan data juga harusnya ada untuk menjamin kenyaman dari pengguna maupun bagi pengepul. Maka dari 
+	itu adanya administrator khusus yang berguna untuk mengecek data yang masuk serta memonitor aktivitas yang mencurigakan sehingga
+	dapat diantisipasi secara cepat.
+	
+2.3	Batasan
+	Penggunaan system web responsif seperti yang digunakan untuk membangun E-ROMBENG tentunya memiliki kekurangan serta kelebihan dalam
+	pengaplikasiaannya. Batasan – batasan yang ada yaitu dimana disetiap aktifitas yang dilakukan pada web responsif memerlukan kuota 
+	serta waktu eksekusinya lebih lama daripada platform lain seperti pada desktop atau android. Pada proses desain juga terbatas dan 
+	menyesuaikan dengan hostingnya dikarenakan mebutuhkan space storage yang lumayan besar apabila desain yang dilakukan terlampau bagus
+	dan rumit.
+
+2.4	Lingkungan Operasi
+	Website ini menggunakan system web yang responsive, sehingga tidak membutuhkan spesifikasi hardware dan platform yang khusus untuk
+	mengkases website E-ROMBENG ini. Intinya selama user terhubung dengan koneksi internet dan memiliki aplikasi web browser yang support
+	dengan HTML 5 maka user dapat mengakses website E-ROMBENG dengan lancar tanpa hambatan.
+
+3.	Deskripsi Kebutuhan 
+3.1	Kebutuhan Antarmuka Eksternal 
+Perangkat Lunak E-Rombeng membutuhkan fasilitas-fasilitas antar muka eksternal sebagai berikut :
+
+3.1.1	Antarmuka pemakai
+User interface yang digunakan untuk mengoperasikan Perangkat Lunak E-Rombeng antara lain :
+-	Tampilan home web
+-	Tampilan login pengepul, customer dan admin
+-	Tampilan form sign up
+-	Tampilan list pengepul
+-	Tampilan Lokasi atau google maps dari pengepul
+-	Tampilan form transaksi
+
+Alat-alat yang mendukung antarmuka pemakai adalah sebagai berikut :
+-	Android / Smartphone 
+-	Laptop
+-	Keyboard
+-	Mouse
+
+3.1.2	Antarmuka Perangkat Keras
+Antarmuka perangkat keras yang digunakan untuk  mengoperasikan perangkat lunak :
+-	NIC 
+-	AccessPoint
+-	Modem
+
+3.1.3	Antarmuka Perangkat Lunak
+Antarmuka perangkat lunak yang digunakan untuk  mengoperasikan perangkat lunak :
+-
+
+3.1.4	Antarmuka Komunikasi
+Antarmuka komunikasi yang digunakan untuk  mengoperasikan perangkat lunak :
+-	Modem
+-	Accespoint
+-	Kabel LAN 
+
+3.2	Kebutuhan Fungsional
+Tabel 4. Kebutuhan Fungsional
+( ID	/	Kebutuhan	/	Penjelasan ) 
+SRS-F-OUT-001	= 	Perangkat lunak dapat menampilkan form sign in.		=	Pengguna yang telah terdaftar dapat melakukan sign in sehingga perangkat lunak perlu menampilkan form sign in
+
+SRS-F-OUT-002	= 	Perangkat lunak dapat menampilkan form registrasi.	=	Pengguna yang belum terdaftar dapat melakukan registrasi terlebih dahulu sehingga perangkat lunak perlu menampilkan form registrasi sesuai pilihan registrasi sebagai pengepul atau user.
+
+SRS-F-OUT-003	=	Perangkat lunak dapat menampilkan form entri pendaftaran	=	Form entri pendaftaran ditampilkan saat pengguna melakukan pendaftaran sebagai pengepul atau sebagai user
+
+SRS-F-IN-004	=	Perangkat lunak dapat menerima masukan dari pengepul, berupa data barang rongsok atau updatean harga barang rongsok. =	Data yang dimasukkan oleh pengepul dapat diterima oleh perangkat lunak
+
+SRS-F-PR-005	=	Perangkat lunak dapat menyimpan data user(customer)	=	Setelah pengguna yang melakukan pendaftaran sebagai user memasukkan data yang dibutuhkan, perangkat lunak menyimpan data tersebut.
+
+SRS-F-PR-006	=	Perangkat lunak dapat menyimpan data pengepul	=	Setelah pengepul yang melakukan pendaftaran sebagai pengepul memasukkan data yang dibutuhkan, perangkat lunak menyimpan data tersebut.
+
+SRS-F-IN-007	=	Perangkat lunak dapat menampilkan form khusus pengepul untuk melakukan update harga ,type dari barang rongsok  dan informasi lain =  Pengepul melakukan input informasi yang diperlukan dan dapat diproses oleh perangkat lunak.
+
+SRS-F-OUT-008	= 	Perangkat lunak dapat menampilkan halaman home	=	Pengguna atau pengepul dapat melihat tampilan dari masing masing sesuai loginnya sebagai user atau pengepul.
+
+SRS-F-OUT-009	= 	Perangkat lunak dapat menampilkan list pengepul dan lokasi dari pengepul = Pengguna dapat melihat beberapa pengepul yang ada disekitar user yang terdekat.
+
+SRS-F-OUT-010	=	Perangkat lunak dapat menampilkan katalog harga dari type barang rongsok = Pengguna dapat melihat updatean harga pada pengepul yang telah dipilihnya.
+
+SRS-F-IN-011	=	Perangkat Lunak dapat menerima inputan jika user ingin melakukan transaksi pada pengepul yang dipilihnya	=	User atau pengguna memberikan inputan transaksi untuk melakukan transaksi jual beli rongsok.
+
+SRS-F-OUT-012	=	Perangkat Lunak menampilkan form transaksi penjualan barang rongsok	=	User dapat akan melakukan transaksi dapat melakukan pengisian form transaksi, input data dan berat barang rongsok, serta kesepakatan pengambilan barangnya.
+
+SRS-F-IN-013	=	Perangkat lunak dapat menerima inputan data yang dijual oleh customer	=	User yang melakukan transaksi penjualan rosok akan memasukkan data type barang yang ingin dijual beserta jumlahnya, sehingga data tersebut dapat diterima oleh perangkat lunak
+
+SRS-F-OUT-014	=	Perangkat lunak dapat mengirimkan notifikasi transaksi berhasil kepada user 	=	Setelah berhasil dikirimkan, maka akan dilakukan pemrosesan oleh perangkat lunak untuk proses transaksi selanjutnya.
+
+SRS-F-OUT-015	= 	Perangkat lunak akan menampilkan data user yang melakukan transaksi	=	Pengepul akan melakukan transaksi dan pengambilan barang sesuai informasi yang diberikan oleh perangkat lunak.
+
+
+
+3.2.1 	Diagram Konteks 
+3.2.2 		DFD Level 1 
+3.2.2.1 	DFD Level 2 <Proses pendaftaran >
+3.2.2.2 	DFD Level 2 <Proses lihat dan update data rombeng> 
+3.2.2.2 	DFD Level 2 <Proses pemesanan> 
+
+3.2.3 	Spesifikasi Proses 
+3.2.4 	Data Store 
+
+3.3	Kebutuhan Data
+3.3.1 E-R diagram
+
+3.4 Kebutuhan Non Fungsional  
+Tabel 7 Kebutuhan non Fungsional
+	(ID		-		Parameter		-		Kebutuhan)
+	
+SRS-NF-OUT-016	=	Availability	=	Perangkat lunak dapat beroperasi selama 24 jam tanpa gagal.
+
+SRS-NF-OUT-017	=	Reliability	=	Kegagalan dalam proses transaksi memiliki toleransi satu kali kegagalan.
+
+SRS-NF-OUT-018	=	Ergonomy	=	Tampilan antar muka web E-Rombeng mudah dipahami, dimengerti, efisien dan efektif penggunaanya.
+
+SRS-NF-OUT-019	=	Portability	=	Perangkat lunak dapat dipakai di platform Windows atau Android.
+
+			Memory		=	N/A
+					
+SRS-NF-OUT-020	=	Response time	=	Perangkat lunak mampu menampilkan notifikasi transaksi kepada customer maksimal 45 detik.
+
+			Safety		=	N/A.
+
+SRS-NF-OUT-021	=	Security	=	Perangkat lunak aman dalam proses pembayaran transaksi, Standar yang digunakan enkripsi HTTPS.
+
+SRS-NF-OUT-022	=	Security	=	Perangkat lunak menolak input pengguna yang mendaftar sebagai user atau pengepul dengan pasword kurang dari  karakter.
+						Perangkat lunak akan menolak proses transaksi jika data diri user kurang.
+									
+SRS-NF-OUT-023	=	Other 1 : Bahasa Komunikasi	=	Disediakan 2 bahasa yaitu Bahasa Indonesia dan Inggris untuk melakukan pengoperasian E-Rombeng.
+
+SRS-NF-OUT-024	=	Other 2	: Tampilan Logo Perangkat Lunak =	Pada setiap halaman terdapat nama perangkat lunak E-Rombeng dna logonya.	
+									
+
+
+3.5 Batasan Perancangan 
+Batasan  perancangan yang dipakai dalam pengembangan perangkat lunak E-Rombeng antara lain :
+-	Tampilan logo E-Rombeng dan icon-icon  yang digunakan dibuat menggunakan photoshop atau coreldraw.
+-	Text editor yang digunakan adalah sublime text dan atau notepad++
+-	Bahasa yang digunakan adalah html, css
+
+3.6 Kerunutan (traceability)  
+Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang 
+dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi
+traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
+
+3.6.1 Kebutuhan Fungsional vs Proses
+	Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat 
+lunak E-Rombeng adalah sebagai berikut.
+
+3.6.2 Data Store vs E-R 
+	
+3.7 Ringkasan Kebutuhan 
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
+fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus
+dipenuhi dalam pembuatan suatu perangkat lunak, dan nantnya dapat digunakan 
+sebagai arahan untuk proses testing, dimana sebenarnya semua harus dapat dilakukan pada 
+proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng yaitu :
+		
+
+3.7.1 Kebutuhan Fungsional 
+
+3.7.2 Kebutuhan Non Fungsional 

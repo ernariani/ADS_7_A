@@ -1,0 +1,24 @@
+Judul : E-Rombeng  (Sistem Informasi Penjualan Barang Rongsok)
+Kelompok 7  : 
+-	Agung Gumilang Pratama	150535605420
+-	Dimas Kiki Setiadi		150535604625
+-	Erna Fajariani		150535602669
+Prodi : S1 Teknik Informatika Offering A
+
+
+Kebutuhan Fungsional dan Non Fungsional
+
+Kebutuhan Fungsional	
+
+-	Dapat search tempat pengepul rosokan terdekat
+-	Update harga barang rosokam secara realtime
+-	Menyediakan profile dari pengepul rosokan
+-	Menyimpan data data user yang pernah menggunakan sistem ini atau yang pernah melakukan transaksi
+-	Menyediakan fitur rating, sehingga user dapat mengetahui pengepul mana yang sering dipilih
+	
+Kebutuhan Non Fungsional
+-	Transaksi penjualan rongsokan aman (pembayaran)
+-	Menyediakan pilihan bahasa inggris dan indonesia
+-	Digunakan pada aplikasi web responsif
+
+

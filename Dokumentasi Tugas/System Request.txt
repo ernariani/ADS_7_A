@@ -1,0 +1,29 @@
+Judul : E-Rombeng  (Sistem Informasi Penjualan Barang Rongsok)
+Kelompok 7  : 
+-	Agung Gumilang Pratama	150535605420
+-	Dimas Kiki Setiadi		150535604625
+-	Erna Fajariani		150535602669
+Prodi : S1 Teknik Informatika Offering A
+
+System Request
+
+1. Project Sponsor	: Pengepul Rosokan
+
+2. Business Needs :
+- Sistem penjualan rosokan lebih efisien
+- Calon penjual rosokan mudah mengetahui tempat terdekat dari pengepul rosokan
+- Penjual dapat mengetahui harga tiap jenis rosokan (perkilonya)
+
+3 Business Requerements :	
+- Fasilitas pencarian tempat pengepul rosokan disekitar keberadaan calon penjual
+- Informasi harga tiap jenis rosokan perkilonya
+- Informasi tata cara atau persyaratan penjualan
+
+4 Business Velue :	
+- Pengepul rosokan dapat memperoleh barang rosokan dengan mudah
+- Penjual tidak lagi menghantarkan barang rosokan ke tempat pengepul (min berat _ kg)
+- Terdapat kesepakatan harga, jenis rosokan diawal transaksi
+
+5 Spacial Issues :  Sistem dibangun berbasis web responsif
+
+
