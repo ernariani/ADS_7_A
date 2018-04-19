@@ -1,0 +1,46 @@
+1. Aktor pada Use Case
+
+Admin :
+-	Mengupdate fitur sistem informasi
+-	Insert, input, delete data
+-	Melakukan verifikasi pendaftaran
+Pengepul :	
+-	Mendaftar ke sistem sebagai pengepul
+-	Menginsert , delete, update data harga tiap tipe barang rongsok
+-	Melakukan konfirmasi dengan customer ketika melakukan transaksi penjualan rongsok
+-	Mengetahui lokasi dari customer
+
+User / Customer (Penjual rosok) :	
+-	Mendaftar ke sistem sebagai customer
+-	Mengetahui lokasi pengepul, profile
+-	Mengetahui informasi jenis barang rongsokan
+-	Mengetahui jam kerja 
+-	Mengisi form penjualan barang rongsok
+
+2. Use Case Deskripsi :
+
+a. Use Case name :  Melakukan  transaksi penjualan barang rongsok
+
+b. Actor :  Customer
+
+c. Deskripsi : Customer yang memiliki barang rongsok dapat menjual barang rongsok tersebut dengan mengisikan  form  transasksi penjualan.
+
+d. Trigger : Adanya barang rongsok yang akan dijual.
+
+e. Pre condition :
+- Tampilan  profile dari pengepul rosok
+- Tampilan  form transaksi penjualan barang rongsok
+- Form  yang disediakan  terdapat  pilihan  jenis  barang  rongsok, berat barang
+
+f. Normal Course :
+- Customer mengisi form penjualan
+- Mengisi data diri penjual, jenis, berat dari rongsokan yang akan dijual.
+
+g. Post Condition :
+- Menampilkan data form  transaksi penjualan yang telah diinputkan
+
+h. Exception :
+- Adanya peringatan jika terdapat data yang belum diisi.
+- Jika jenis barang  rongsokan  lebih  dari  satu  jenis, maka  akan  ditampilkan tambahan  kolom  menyesuaikan dengan berapa jenis rongsokan yang akan dijual.
+- Muncul pesan  “transaksi telah berhasil diproses, tunggu konfirmasi selanjutnya” jika kita telah melakukan transaksi penjualan.
+
