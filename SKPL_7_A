@@ -183,6 +183,7 @@ SRS-F-OUT-015	= 	Perangkat lunak akan menampilkan data user yang melakukan trans
 3.2.3 	Spesifikasi Proses 
 3.2.4 	Data Store 
 
+
 3.3	Kebutuhan Data
 3.3.1 E-R diagram
 
@@ -209,7 +210,7 @@ SRS-NF-OUT-021	=	Security	=	Perangkat lunak aman dalam proses pembayaran transak
 SRS-NF-OUT-022	=	Security	=	Perangkat lunak menolak input pengguna yang mendaftar sebagai user atau pengepul dengan pasword kurang dari  karakter.
 						Perangkat lunak akan menolak proses transaksi jika data diri user kurang.
 									
-SRS-NF-OUT-023	=	Other 1 : Bahasa Komunikasi	=	Disediakan 2 bahasa yaitu Bahasa Indonesia dan Inggris untuk melakukan pengoperasian E-Rombeng.
+SRS-NF-OUT-023	=	Other 1 : Bahasa Komunikasi		=	Disediakan 2 bahasa yaitu Bahasa Indonesia dan Inggris untuk melakukan pengoperasian E-Rombeng.
 
 SRS-NF-OUT-024	=	Other 2	: Tampilan Logo Perangkat Lunak =	Pada setiap halaman terdapat nama perangkat lunak E-Rombeng dna logonya.	
 									
@@ -231,7 +232,9 @@ traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
 lunak E-Rombeng adalah sebagai berikut.
 
 3.6.2 Data Store vs E-R 
-	
+
+
+
 3.7 Ringkasan Kebutuhan 
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
 fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus
@@ -241,5 +244,8 @@ proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng 
 		
 
 3.7.1 Kebutuhan Fungsional 
+
+
+
 
 3.7.2 Kebutuhan Non Fungsional 
