@@ -70,7 +70,11 @@ dan masih banyak lagi fitur yang disajikan.
 	[5]	D. M. Taguchi, “Sistem Informasi Penjualan Produk Benang Pada PT.Central Georgette Nusantara Cimahi,” Pros. SNATIF, pp. 35–40, 2014.
 
 1.6	Deskripsi umum Dokumen (Ikhtisar)
-	
+	Dokumen Spesifikasi Kebutuhan Perangka Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, diskripsi umum perangkat 
+	lunak, dan deskripsi kebutuhan.
+	Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan diskripsi 
+	dari aplikasi yang akan dibuat, difinisi, istilah, dan singkatan yang digunakan dalam dokumen, aturan penomoran yang digunakan dalam dokumen 
+	ini, referensi yang dirujuk oleh dokumen dan ikhtisar dokumen ini.
 	
 
 2.	Deskripsi Umum Perangkat Lunak 
