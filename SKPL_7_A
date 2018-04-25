@@ -44,6 +44,23 @@ dan masih banyak lagi fitur yang disajikan.
 
 1.4	Aturan Penomoran
 
+	Nama-ID			/	Aturan Penamaan			/		Diskripsi
+	Kebutuhan Fungsional		SRF-F-IN/PR/OUT-xxx				SRF adalah System Requirement Summary
+											F adalah Fungsional
+											IN menunjukan Proses Input
+											PR menunjukan Proses Proses
+											OUT menunjukan proses Output
+											xxx adalah nomor SRS-ID
+	Kebutuhan NonFungsional		SRF-NF-IN/PR/OUT-xxx				SRF adalah System Requirement Summary
+											NF adalah Non Fungsional
+											IN menunjukan Proses Input
+											PR menunjukan Proses Proses
+											OUT menunjukan proses Output
+											xxx adalah nomor SRS-ID
+	Bubble				DFD-X-Y-Z					dfd adalah Data Flow Diagram
+											X adalah nomor level diagram
+											Y,Z adalah nomor pada bubble diagram
+
  
 1.5	Referensi
 	[1]	Bunyamin and K. R. Maulana, “Rancang Bangun Aplikasi Sistem Informasi Penjualan dan Stok Barang Di Toko Widari Garut,” J. Algoritm. - ISSN 2302-7339, vol. 12, pp. 1–6, 2015.
