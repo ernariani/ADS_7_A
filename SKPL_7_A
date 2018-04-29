@@ -195,19 +195,86 @@ SRS-F-OUT-012	=	Perangkat Lunak menampilkan form transaksi penjualan barang rong
 
 SRS-F-IN-013	=	Perangkat lunak dapat menerima inputan data yang dijual oleh customer	=	User yang melakukan transaksi penjualan rosok akan memasukkan data type barang yang ingin dijual beserta jumlahnya, sehingga data tersebut dapat diterima oleh perangkat lunak
 
-SRS-F-OUT-014	=	Perangkat lunak dapat mengirimkan notifikasi transaksi berhasil kepada user 	=	Setelah berhasil dikirimkan, maka akan dilakukan pemrosesan oleh perangkat lunak untuk proses transaksi selanjutnya.
+SRS-F-OUT-014	=	Perangkat lunak dapat mengirimkan notifikasi transaksi berhasil kepada customer 	=	Setelah berhasil dikirimkan, maka akan dilakukan pemrosesan oleh perangkat lunak untuk proses transaksi selanjutnya.
 
 SRS-F-OUT-015	= 	Perangkat lunak akan menampilkan data user yang melakukan transaksi	=	Pengepul akan melakukan transaksi dan pengambilan barang sesuai informasi yang diberikan oleh perangkat lunak.
 
 
-
 3.2.1 	Diagram Konteks 
-3.2.2 		DFD Level 1 
-3.2.2.1 	DFD Level 2 <Proses pendaftaran >
-3.2.2.2 	DFD Level 2 <Proses lihat dan update data rombeng> 
-3.2.2.2 	DFD Level 2 <Proses pemesanan> 
+3.2.2 	DFD Level 1 
+3.2.2.1 DFD Level 2 <Proses Registrasi >
+3.2.2.2 DFD Level 2 <Proses Lihat dan Update data harga rombeng> 
+3.2.2.3 DFD Level 2 <Proses Transaksi>
+3.2.2.4	DFD Level 2 <Proses Generate Laporan>
 
 3.2.3 	Spesifikasi Proses 
+Tabel 5 Spesifikasi Proses
+(	Kode buble	 : 	Deskripsi		)
+DFD-0-1
+Proses ini merupakan gambran sistem E-Rombeng secara keseluruhan. Melibatkan terminator 
+serta data flow yang keluar-masuk ke dalam sistem. Buble 0 akan dideskripsikan pada DFD 
+level selanjutnya agar bisa memberikan gambaran secara lebih rinci dan spesifik.
+
+DFD-1-1
+Terminator yang dapat melakukan pilihan input adalah customer dan pengepul, karena kedua terminator 
+ini merupakan pengguna aktif yang dapat berinteraksi dengan customer. 
+Proses mengeluarkan output sesuai dengan pilihan customer, yang akan meneruskan data flow pada proses yang sesuai dengan pilihan customer.
+
+DFD-1-2
+Proses ini akan terjadi ketika cutomer memilih menu pilihan registrasi. 
+User yang belum terdaftar dapat melakukan registrasi sehingga data hasil registrasi tersebut akan tersimpan pada data customer.
+
+DFD-1-3
+Customer yang telah terdaftar dapat melihat data barang rombeng dan harga yang disediakan dari data rombeng. 
+proses ini menerima customer dapat melihat semua pengepul yang ada di kota malang dan lokasi terdekat dari pengepul. Juga melihat katalog data rombeng dari setiap pengepul yang ada.
+Selain itu admin dan pengepul dapat melakukan piihan untuk melakukan update data rombeng. Data yang telah di update akan disimpan pada data rombeng.
+
+DFD-1-4
+Proses in menerima data flow berupa Pil_Pengepul dan Pil_Transaksi. Proses ini memerlukan data rombeng dan data pengepul  agar bsia melakukan proses pemesanan. 
+Setelah keluar dari proses ini dari pengisian form transaksi, akan didapatkan data transaksi (mulai dari type rongsok, beratnya, perkiraan total harga dll)
+
+DFD-1-5
+Ketika pengisian form transaksi berhasil maka menunggu output berupa validasi pemrosesan transaksi. Outputnya berupa data antrian transaksi yang dipilh tiap pengepulnya. 
+Pada proses ini menerima inputan berupa Pil_Laporan dan Pil_InfoTransaksi,kemudian melakukan proses generate laporan sehingga admin bisa mendapatkan laporan untuk dilaporkan.
+
+DFD-2-2.1
+Proses ini dibuat agar bisa memenuhi spesifikasi user requirment yang kami buat. Apabila pengguna memilih menu registrasi dan disitu terdapat dua pilihan sebagai customer dan pengepul.
+Jika sebagai customer maka sistem akan meminta masukan kepada customer berupa data apa saja yang dibutuhkan. Oleh karena itu output dari proses ini berupa data form yang akan diisi oleh customer.
+Jika sebagai pengepul maka sistem akan meminta inputan kepada pengepul yang akan daftar berupa data apa saja ynag berhubungan dengan pengepul.Jadi output nanti berupa form yang diisikan oleh pengepul.
+
+DFD-2-2.2
+Data form yang telah ditampilkan harus diisi oleh pengguna. Apabila telah tervalidasi, maka status pengguna akan naik menjadi customer atau pengepul sesuai dengan isian form sebelumnya. 
+Disini data customer akan disimpan pada suata data store yaitu data_customer, sedangkan data pengepul akan disimpan pada data store yaitu data_pengepul.
+
+DFD-2-2.3
+Apabila user telah terdaftar, maka user cukup melakukan login sebagai customer. Proses ini merupakan proses pengecekan terhadap seorang customer.
+
+DFD-2-2.4
+Apabila user telah terdaftar, maka user cukup melakukan login sebagai pengepul. Proses ini merupakan proses pengecekan terhadap seorang pengepul.
+
+DFD-2-3.1
+Customer dapat melihat data rombeng yang tersedia pada tiap pengepul.
+
+DFD-2-3.2
+Admin dapat melakukan update pada katalog, sesuai dengan permintaan pengepul.
+
+DFD-2-4.1
+Apabila customer memilih menu Pil_Pengepul sesuai lokasi, maka pembeli dapat melihat daftar harga rombeng pada pengepul yang dipilih. Keluaran dari proses ini berupa 
+data transaksi (kd_pengepul, type_rombeng, berat_barang, tipe_transaksi, perkiraan_harga yang mungkin nanti diterima oleh cutomer)
+
+DFD-2-4.2
+Proses validasi form pengisian dari customer yang telah dikirim untuk melakukan proses transaksi, apakah data customer dengan data transaksi sudah benar.
+
+DFD-2-4-3
+Proses validasi transaksi, apakah transaksi suadah valid dan bisa dilakukan proses transaksi selanjutnya.
+
+DFD-2-7.1
+Untuk mengirimkan laporan ke manajer, admin memiliki hak akses untuk mencetak laporan. Data ini diperoleh dari data store yang terkait dengan transaksi.
+
+DFD-2-7.2
+Admin dapat melakukan Pil_informasiTransaksi untuk mendapatkan tabel data transaksi rombeng dan persentase penjualan setiap pengepulnya yang berupa tabel.	
+
+
 3.2.4 	Data Store 
 
 
