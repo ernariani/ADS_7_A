@@ -275,8 +275,24 @@ DFD-2-7.2
 Admin dapat melakukan Pil_informasiTransaksi untuk mendapatkan tabel data transaksi rombeng dan persentase penjualan setiap pengepulnya yang berupa tabel.	
 
 
-3.2.4 	Data Store 
+3.2.4 	Data Store
+Table 6 Data Store
 
+Data_Customer
+Berisi deskripsi customer yang telah melakukan registrasi. Sepeti nama, notelp, email serta alamat customer.
+
+Data_transaksi
+Ketika customer selesai melakukan pencarian dan melakukan transaksi, maka data transaksi tersebut 
+akan tersimpat pada data store ini. Data_transaksi akan digunakan oleh pengepul untuk melakukan validasi proses transaksi.
+
+Data Pengepul
+Produk merupakan database yang menyimpan data seluruh pengepul dilengkapi dengan alamat lokasinya.
+Data ini digunakan sebagai input pilihan ketika customer ingin menjual kepada pengepul yang terdekat 
+proses permintaan pengepul akan mempengeruhi harga dari rongsok.
+
+Data_rombeng
+Berisi data yang mengelola data harga dan barang rongsok yang dibeli oleh pengepul. 
+Menyimpan gambar dari rongsok, type rongsok, nama rongsok dll.
 
 3.3	Kebutuhan Data
 3.3.1 E-R diagram
