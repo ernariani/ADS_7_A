@@ -391,7 +391,24 @@ proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng 
 		
 
 3.7.1 Kebutuhan Fungsional 
+Tabel 10 Kebutuhan Fungsional
+( ID = Deskripsi )
 
+SRS-F-OUT-001	= Perangkat lunak dapat menampilkan form sign in.
+SRS-F-OUT-002	= Perangkat lunak dapat menampilkan form registrasi. (pengepul atau customer).
+SRS-F-OUT-003	= Perangkat lunak dapat menampilkan form entri pendaftaran.
+SRS-F-IN-004	= Perangkat lunak dapat menerima masukan dari pengepul, berupa data barang rongsok atau updatean harga barang rongsok. 
+SRS-F-PR-005	= Perangkat lunak dapat menyimpan data user(customer).
+SRS-F-PR-006	= Perangkat lunak dapat menyimpan data pengepul.
+SRS-F-IN-007	= Perangkat lunak dapat menampilkan form khusus pengepul untuk melakukan update harga ,type dari barang rongsok  dan informasi lain.
+SRS-F-OUT-008	= Perangkat lunak dapat menampilkan halaman home.
+SRS-F-OUT-009	= Perangkat lunak dapat menampilkan list pengepul dan lokasi dari pengepul.
+SRS-F-OUT-010	= Perangkat lunak dapat menampilkan katalog harga dari type barang rongsok.
+SRS-F-IN-011	= Perangkat Lunak dapat menerima inputan jika user ingin melakukan transaksi pada pengepul yang dipilihnya.
+SRS-F-OUT-012	= Perangkat Lunak menampilkan form transaksi penjualan barang rongsok.
+SRS-F-IN-013	= Perangkat lunak dapat menerima inputan data yang akan dijual oleh customer.
+SRS-F-OUT-014	= Perangkat lunak dapat mengirimkan notifikasi transaksi berhasil kepada customer.
+SRS-F-OUT-015	=  Perangkat lunak akan menampilkan data customer yang melakukan transaksi.
 
 
 
