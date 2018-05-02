@@ -341,9 +341,6 @@ traceability dari hasil analisis kebutuhan perangkat lunak yang dibangun.
 Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat 
 lunak E-Rombeng adalah sebagai berikut.
 
-3.6.2 Data Store vs E-R
-Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat 
-lunak E-Rombeng adalah sebagai berikut.
 Tabel 8 Kebutuhan Fungsional vs Proses
 
 ID Kebutuhan Fungsional  = Nomor Proses pada DFD
@@ -364,6 +361,7 @@ SRS-F-IN-013	=	DFD-2-4-2
 SRS-F-OUT-014	=	DFD-2-4-3
 SRS-F-OUT-015	= 	DFD-2-5-1,DFD-2-5-2
 
+3.6.2 Data Store vs E-R
 
 
 3.7 Ringkasan Kebutuhan 
