@@ -363,6 +363,24 @@ SRS-F-OUT-015	= 	DFD-2-5-1,DFD-2-5-2
 
 3.6.2 Data Store vs E-R
 
+Mapping data store pada DFD dengan Entity –Relasi untuk 
+perangkat lunak E-Rombeng adalah sebagai berikut :
+
+Tabel 9 Data Store vs E-R
+(Data Store : Entity : Relasi)
+
+Data_customer : Pelanggan : -
+Data_transaksi : Transaksi, Id Pengepul, Type rombeng,  Berat_Barang :  antrian_pemrosesan_transaksi, terdiri dari, barang_rongsok, dalam type rongsok.
+Data_Pengepul : kd_pengepul, nama pengepul, lokasi , alamat, jam operasional : antrian_pemrosesan_transaksi, dalam type rongsok, terdiri dari.
+Data_rombeng : nama, berat, harga : dalam_type_rongsok, antrian_pemrosesan_transaksi.
+	
+3.7 Ringkasan Kebutuhan 
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
+fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus
+dipenuhi dalam pembuatan suatu perangkat lunak, dan nantnya dapat digunakan 
+sebagai arahan untuk proses testing, dimana sebenarnya semua harus dapat dilakukan pada 
+proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng.
+
 
 3.7 Ringkasan Kebutuhan 
 Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
