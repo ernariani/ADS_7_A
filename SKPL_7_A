@@ -389,7 +389,6 @@ dipenuhi dalam pembuatan suatu perangkat lunak, dan nantnya dapat digunakan
 sebagai arahan untuk proses testing, dimana sebenarnya semua harus dapat dilakukan pada 
 proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng yaitu :
 		
-
 3.7.1 Kebutuhan Fungsional 
 Tabel 10 Kebutuhan Fungsional
 ( ID = Deskripsi )
@@ -410,6 +409,19 @@ SRS-F-IN-013	= Perangkat lunak dapat menerima inputan data yang akan dijual oleh
 SRS-F-OUT-014	= Perangkat lunak dapat mengirimkan notifikasi transaksi berhasil kepada customer.
 SRS-F-OUT-015	=  Perangkat lunak akan menampilkan data customer yang melakukan transaksi.
 
+3.7.2 Kebutuhan Non Fungsional
+Tabel 11 Kebutuhan Non Fungsional
+( ID = Deskripsi )
 
+SRS-NF-OUT-016	= Perangkat lunak dapat beroperasi selama 24 jam tanpa gagal.
+SRS-NF-OUT-017	= Kegagalan dalam proses transaksi memiliki toleransi satu kali kegagalan.
+SRS-NF-OUT-018	= Tampilan antar muka web E-Rombeng mudah dipahami, dimengerti, efisien dan efektif penggunaanya.
+SRS-NF-OUT-019	= Perangkat lunak dapat dipakai di platform Windows atau Android karena berbasis Web responsif.	
+SRS-NF-OUT-020	= Perangkat lunak mampu menampilkan notifikasi transaksi kepada customer maksimal 45 detik.
+SRS-NF-OUT-021	= Perangkat lunak aman dalam proses pembayaran transaksi, Standar yang digunakan enkripsi HTTPS.
+SRS-NF-OUT-022	= Perangkat lunak menolak input pengguna yang mendaftar sebagai customer atau pengepul dengan pasword kurang dari  karakter.
+		   Perangkat lunak akan menolak proses transaksi jika data diri customer kurang.						
+SRS-NF-OUT-023	= Saat tanya jawab atau berkomunikasi disediakan 2 bahasa yaitu Bahasa Indonesia dan Inggris 
+		   untuk melakukan pengoperasian E-Rombeng.
+SRS-NF-OUT-024	= Pada tiap halaman terdapat nama perangkat lunak E-Rombeng dan logonya.
 
-3.7.2 Kebutuhan Non Fungsional 
