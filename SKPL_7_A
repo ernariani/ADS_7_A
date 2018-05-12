@@ -375,19 +375,11 @@ Data_Pengepul : kd_pengepul, nama pengepul, lokasi , alamat, jam operasional : a
 Data_rombeng : nama, berat, harga : dalam_type_rongsok, antrian_pemrosesan_transaksi.
 	
 3.7 Ringkasan Kebutuhan 
-Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
-fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus
-dipenuhi dalam pembuatan suatu perangkat lunak, dan nantnya dapat digunakan 
-sebagai arahan untuk proses testing, dimana sebenarnya semua harus dapat dilakukan pada 
-proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng.
-
-
-3.7 Ringkasan Kebutuhan 
-Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan
-fungsional dan kebutuhan non fungsional. Kebutuhan ini mencerminkan semua hal yang harus
-dipenuhi dalam pembuatan suatu perangkat lunak, dan nantnya dapat digunakan 
-sebagai arahan untuk proses testing, dimana sebenarnya semua harus dapat dilakukan pada 
-proses testing. Berikut ini ringkasan semua kebutuhan perangkat lunak E-Rombeng yaitu :
+Perangkat lunak yang dibuat memiliki dua jenis kebutuhan, yaitu kebutuhan fungsional dan kebutuhan non fungsional. 
+Kebutuhan ini menggambarkan semua hal yang harus dipenuhi dalam pembuatan suatu perangkat lunak. Kebutuhan fungsional 
+dan non fungsional ini harus ada pada proses implementasi yang kemudian nantinya dapat digunakan sebagai arahan untuk 
+proses testing, dimana sebenarnya semua harus dapat dilakukan pada proses testing. Berikut ini ringkasan dari semua
+kebutuhan perangkat lunak E-Rombeng yaitu :
 		
 3.7.1 Kebutuhan Fungsional 
 Tabel 10 Kebutuhan Fungsional
